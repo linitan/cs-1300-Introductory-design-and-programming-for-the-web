@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<!--
+Responsive Design
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Apple Festival</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=David+Libre">
+
+</head>
+
+<body>
+<div id="top_nav">
+    <span><a href="index.html">Home</a></span>
+    <span><a href="food.html">Food</a></span>
+    <span><a href="events.html">Events</a></span>
+    <span><a href="map.html">Map</a></span>
+</div> <!-- end of top_nav div -->
+
+<div id="top">
+    <!-- image adapted from http://unicoicounty.org/apple-festival/-->
+    <img src="images/applesOnDesk.jpg" alt="AppleFesBackImg">
+</div> <!-- end of top div -->
+    <div id="container">
+        <div id="content">
+            <h3>How to get to the Commons:</h3>
+            <p>For GPS, use the street address at 171 E M.L.K. Jr. St, Ithaca, NY 14850</p>
+            <div id="map">
+                <script src="js/map.js"></script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeg15y7qWkuhltlXFZiXGO_oWR_Df-qvE&callback=show_map"></script>
+            </div> <!-- end of map div -->
+            <h3>Finding a parking space:</h3>
+            <p>Park your cars at Green Street Garage(bottom marker)
+            <p>For GPS, use the street address at 120-126 E Green St, Ithaca, NY 14850</p>
+            <div id="tcat">
+                <h3>Using TCAT from Cornell University:</h3>
+                <p>Option 1: Board the Route 30 at Risley Hall(Cornell North Campus) and get off at Seneca @ Commons</p>
+                <p>Option 2: Board the Route 30 at Sage Hall(Cornell Central Campus) and get off at Seneca @ Commons</p>
+                <p>Option 3: Board the Route 70 or 72 at Anabel Taylor Hall(Cornell Central Campus) and get off at Seneca @ Commons</p>
+                <h3>For further information, check out the following link or iPhone users can download Ride14850 from the appstore:</h3>
+                <a href=https://tcat.nextinsight.com/>TCAT bus schedule</a>
+                <!-- information taken from https://tcat.nextinsight.com/allroutes.php  -->
+            </div><!-- end of tcat div -->
+        </div> <!-- end of content div -->
+    </div> <!-- end of container div -->
+    <div id="footerDiv">
+        <footer>
+            <div class="flex-container">
+              Find us on <a href=https://www.facebook.com/events/625283334301662>Facebook</a>
+            </div> <!-- end of flex-container div -->
+        </footer>
+    </div> <!-- end of footerDiv div -->
+</body>
+
+</html>

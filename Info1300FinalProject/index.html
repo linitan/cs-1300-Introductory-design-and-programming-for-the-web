@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!--
+Responsive Design
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Apple Festival</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=David+Libre">
+</head>
+
+<body>
+<div id="top_nav">
+    <span><a href="index.html">Home</a></span>
+    <span><a href="food.html">Food</a></span>
+    <span><a href="events.html">Events</a></span>
+    <span><a href="map.html">Map</a></span>
+</div> <!-- end of top_nav div -->
+
+<div id="top">
+    <!-- image adapted from http://unicoicounty.org/apple-festival/ and modified by Sangmin Kim-->
+    <img src="images/applesOnDesk.jpg" alt="AppleFesBackImg">
+</div> <!-- end of top div -->
+
+    <div id="container">
+        <div id="content">
+            <div id="basic_block">
+                <div id="left_basic">
+                  <h1>The 34th Annual Great Downtown Ithaca Apple Harvest Festival</h1>
+                  <p>Date: September 30 - October 2, 2016</p>
+                  <p>Location: Ithaca Commons</p>
+                  <p>Event Times:</p>
+                  <p>Friday 12pm-6pm</p>
+                  <p>Saturday and Sunday 10am-6pm</p>
+                </div> <!-- end of left_basic div -->
+                <div id="right_basic">
+                    <div class="image">
+                    <!-- HTML images-1.jpg from http://www.eventcrazy.com/Spokane-WA/events/details/139018-Apple-Festival -->
+                    <!-- HTML images-2.jpg from http://dailyinsider.info/riversides-24th-annual-apple-festival-oct-12/ -->
+                    <!-- HTML images-3.jpg from http://lattinscider.com/applefestival.html -->
+                    <!--HTML images-4.jpg from http://vividlife.me/ultimate/37943/growing-up-green-your-very-own-apple-festival/-->
+                    <img id="festivalImage" src="images/images-1.jpg" alt="FestivalImage">
+                    <p class="caption">Apple Festival</p>
+                    </div> <!-- end of image div -->
+                    <div id="button_container">
+                        <button onclick="image_loader(-1)">Previous</button>
+                        <button onclick="image_loader(1)">Next</button>
+                    </div> <!-- end of button_container div -->
+                </div> <!-- end of right_basic div -->
+            </div> <!-- end of basic_block div -->
+
+            <h2 id="festival">Festival Reviews</h2>
+            <div class="people">
+                <img src="images/Bill.png" alt=""><!-- image bill.png was credited from bill's facebook with his permission-->
+                <h2><span>Bill</span></h2>
+                <span>   Senior student in Civil Engineer</span>
+                <p>One of the best festival in Ithaca! Order few food in each place so you can try more food in different ones.</p>
+            </div>
+            <div class="people">
+                <img src="images/Yang.png" alt=""><!-- image yang.png was credited from her facebook with his permission-->
+                <h2><span>Yang</span></h2>
+                <span>   First-year graduate student in Information science</span>
+                <p>Nice place! I wish the food trunk can run much longer.</p>
+            </div>
+            <div class="people">
+                <img src="images/Lori.png" alt=""><!-- image lori.png was credited fher facebook with his permission-->
+                <h2><span>Lori</span></h2>
+                <span>   Junior student in Animal science</span>
+                <p>I will bring my mom here next year. It is a wonderful event to go wfriends and family.</p>
+            </div><!-- end of people div-->
+        </div> <!-- end of content div -->
+    </div> <!-- end of container div -->
+   <div id="footerDiv">
+        <footer>
+            <div class="flex-container">
+              Find us on <a href=https://www.facebook.com/events/625283334301662>Facebook</a>
+            </div><!-- end of flex-container div -->
+            <div><script src="js/nextImg.js"></script></div>
+        </footer>
+    </div> <!-- end of footerDiv div -->
+</body>
+
+</html>
